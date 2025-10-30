@@ -1,0 +1,4 @@
+version: 2
+models:
+  - name: mart_airport_stats
+    description: "Aggregated airport-level flight statistics"

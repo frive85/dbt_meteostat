@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: prep_weather_summary
+    description: "Monthly aggregates of average temperature and precipitation per airport."
+  - name: prep_weather_hourly
+    description: "Cleaned weather data from meteostat in hourly granularity and some extra datetime columns."
+  - name: prep_weather_daily
+    description: "Cleaned weather data from meteostat in daily granularity and some extra datetime columns."
+  - name: prep_airports
+    description: "Cleaned Airports in the world."
+  - name: prep_flights
+    description: "All flights of the world with time formatted columns."
